@@ -3,7 +3,7 @@ public class MyLinkedList {
   private Node end;
   private int length = 0;
   public int size() {
-    return size;
+    return length;
   }
   public boolean add(Integer value) {
     Node n=new Node();
